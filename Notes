@@ -1,0 +1,32 @@
+Market volatility model ~ 
++ prior volatility
++ interest rates + Interest rate spreads
++ inflation
++ Consumer confidence index
++ Corporate bond yields
++ unemployment
++ GDP growth
++ trading volume
++ exchange rates 
++ Housing market indicators
++ commodities prices (index) 
++ AR component (allowed)
++ Geopolitical Risk Index
++ Economic Policy Uncertainty Index
++ News sentiment scores from major financial news outlets (Reuters, Bloomberg, WSJ)
+
+    We measure the implied volatility of the S&P500. We use the following regressors
+    - prior volatility
+    - interest rates
+    - GDP growth (might be multicollinear)
+    - inflation rates
+    - unemployment rates
+    - housing market indicators
+    - corporate bond yields
+
+
+Literature:
+
+The impact of interest rate changes on stock price volatility
+https://www.researchgate.net/publication/247905514_The_impact_of_interest_rate_changes_on_stock_price_volatility#:~:text=When%20interest%20rates%20increase%2C%20investors,of%20interest%20rates.%20...
+
